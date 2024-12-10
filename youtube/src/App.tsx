@@ -1,13 +1,11 @@
+import PageHeader from "./layouts/PageHeader";
+// import {PageHeader} from "./layouts/PageHeader";
 
-import './App.css'
-
-function App() {
-
+export default function App() {
   return (
-    <>
-  <h1>Youtube</h1>
-    </>
-  )
+    <div className="max-h flex flex-col">
+      <PageHeader/>
+      <div>2</div>
+    </div>
+    ) 
 }
-
-export default App
